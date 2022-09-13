@@ -1,13 +1,15 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import Header from "../components/header";
+import Footer from "../components/footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <Header />
-      <Component {...pageProps} />
-    </>
+    <div className="h-screen w-screen flex flex-col">
+      <div className="flex-grow bg-neutral-800 text-slate-200">
+        <Component {...pageProps} />
+      </div>
+      <Footer />
+    </div>
   );
 }
 
