@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="h-screen w-screen flex flex-col">
-      <div className="flex-grow bg-neutral-800 text-slate-200">
+      <div className="flex-grow bg-neutral-900 text-slate-200">
         <Component {...pageProps} />
       </div>
       <Footer />
