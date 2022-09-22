@@ -12,10 +12,10 @@ const iconSize = 42;
 
 function Footer() {
   return (
-    <div className="w-full bottom-0 p-2 bg-slate-50">
+    <div className="w-full bottom-0 p-2 bg-zinc-100">
       <nav className="flex items-center justify-center w-full sm:w-auto space-x-2">
         <a href="https://github.com/KoseCosa/">
-          <FaGithubSquare color="#171717" size={iconSize} />
+          <FaGithubSquare color="#18181B" size={iconSize} />
         </a>
         <a href="https://www.facebook.com/kosecosa">
           <FaFacebookSquare color="#4267B2" size={iconSize} />
@@ -33,7 +33,7 @@ function Footer() {
           <FaSnapchatSquare color="#FFFC00" size={iconSize} />
         </a>
         <a>
-          <FaEnvelopeSquare color="#171717" size={iconSize} />
+          <FaEnvelopeSquare color="#18181B" size={iconSize} />
         </a>
       </nav>
     </div>
