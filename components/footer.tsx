@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   FaGithubSquare,
   FaFacebookSquare,
@@ -32,9 +33,9 @@ function Footer() {
         <a href="https://www.snapchat.com/add/kosecosa">
           <FaSnapchatSquare color="#FFFC00" size={iconSize} />
         </a>
-        <a>
+        <Link href="/contact/">
           <FaEnvelopeSquare color="#18181B" size={iconSize} />
-        </a>
+        </Link>
       </nav>
     </div>
   );
