@@ -17,8 +17,9 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-col items-left text-left">
             <p>
-              The form below isn't working yet but once it's working you can use
-              it to contact me 😅
+              {
+                "The form below isn't working yet but once it's working you can use it to contact me 😅"
+              }
             </p>
             <form>
               <label className="font-bold">Name:</label>
