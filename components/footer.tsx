@@ -10,56 +10,56 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-const iconSize = 14;
+const iconSize = "100%";
 
 function Footer() {
   return (
-    <div className="w-full bottom-0 bg-github-grey shadow">
-      <nav className="flex items-center justify-center w-full sm:w-auto">
+    <div className="w-full bottom-0 bg-github-grey shadow flex justify-center">
+      <nav className="bg-white flex items-center grow justify-center w-full sm:w-auto max-w-2xl">
         <a
-          className="bg-github-grey py-2 px-4 "
+          className="bg-github-grey py-2 px-4 grow aspect-video"
           href="https://github.com/KoseCosa/"
         >
           <FaGithub color="white" size={iconSize} />
         </a>
         <a
-          className="bg-linkedin-blue py-2 px-4 "
+          className="bg-linkedin-blue py-2 px-4 grow aspect-video"
           href="https://www.linkedin.com/in/kosecosa/"
         >
           <FaLinkedinIn color="white" size={iconSize} />
         </a>
         <a
-          className="bg-facebook-blue py-2 px-4 "
+          className="bg-facebook-blue py-2 px-4 grow aspect-video"
           href="https://www.facebook.com/kosecosa"
         >
           <FaFacebookF color="white" size={iconSize} />
         </a>
         <a
-          className="bg-twitter-blue py-2 px-4 "
+          className="bg-twitter-blue py-2 px-4 grow aspect-video"
           href="https://twitter.com/kosecosa"
         >
           <FaTwitter color="white" size={iconSize} />
         </a>
         <a
-          className="bg-instagram-purple py-2 px-4 "
+          className="bg-instagram-purple py-2 px-4 grow aspect-video"
           href="https://www.instagram.com/kosecosa/"
         >
           <FaInstagram color="white" size={iconSize} />
         </a>
         <a
-          className="bg-strava-orange py-2 px-4 "
+          className="bg-strava-orange py-2 px-4 grow aspect-video"
           href="https://www.strava.com/athletes/kosecosa/"
         >
           <FaStrava color="white" size={iconSize} />
         </a>
         <a
-          className="bg-snapchat-yellow py-2 px-4 "
+          className="bg-snapchat-yellow py-2 px-4 grow aspect-video"
           href="https://www.snapchat.com/add/kosecosa"
         >
           <FaSnapchatGhost color="white" size={iconSize} />
         </a>
         <Link href="/contact/">
-          <div className="bg-github-grey py-2 px-4 hover:cursor-pointer">
+          <div className="bg-github-grey py-2 px-4 hover:cursor-pointer grow  aspect-video">
             <FaEnvelope color="white" size={iconSize} />
           </div>
         </Link>
